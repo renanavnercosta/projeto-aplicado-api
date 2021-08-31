@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Development",
+      "description": "application development"     
+    },
+    {
+      "id": 2,
+      "name": "Support",
+      "description": "offer support"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Renan",
+      "lastname": "Avner",
+      "departamentId": 1,
+      "skills": [
+        {
+          "name": "proactivity",
+          "value": 0
+        },
+        {
+          "name": "leadership",
+          "value": 0
+        },
+        {
+          "name": "communication",
+          "value": 0
+        },
+        {
+          "name": "criativity and innovation",
+          "value": 0
+        },
+        {
+          "name": "Problem solving",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "firstName": "Joao",
+      "lastname": "Calos",
+      "departamentId": 2,
+      "skills": [
+        {
+          "name": "proactivity",
+          "value": 50
+        },
+        {
+          "name": "leadership",
+          "value": 70
+        },
+        {
+          "name": "communication",
+          "value": 50
+        },
+        {
+          "name": "criativity and innovation",
+          "value": 50
+        },
+        {
+          "name": "Problem solving",
+          "value": 50
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
